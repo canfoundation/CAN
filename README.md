@@ -13,47 +13,30 @@ CryptoBadgelets users identify themselves through expertise, achievements, and c
 
 ## Prebuilt Binaries
 
-Prebuilt EOSIO software packages are available for the operating systems below. Find and follow the instructions for your OS:
+Prebuilt CANNET software packages are available for the operating systems below. Find and follow the instructions for your OS:
 
 ### Mac OS X:
 
 #### Mac OS X Brew Install
 ```sh
-$ brew tap eosio/eosio
-$ brew install eosio
+$ brew tap canfoundation/cannet
+$ brew install cannet
 ```
 #### Mac OS X Brew Uninstall
 ```sh
-$ brew remove eosio
+$ brew remove cannet
 ```
 
 ### Ubuntu Linux:
 
 #### Ubuntu 18.04 Package Install
 ```sh
-$ wget https://github.com/eosio/eos/releases/download/v2.0.2/eosio_2.0.2-1-ubuntu-18.04_amd64.deb
-$ sudo apt install ./eosio_2.0.2-1-ubuntu-18.04_amd64.deb
-```
-#### Ubuntu 16.04 Package Install
-```sh
-$ wget https://github.com/eosio/eos/releases/download/v2.0.2/eosio_2.0.2-1-ubuntu-16.04_amd64.deb
-$ sudo apt install ./eosio_2.0.2-1-ubuntu-16.04_amd64.deb
+$ wget https://github.com/canfoundation/CAN/releases/download/can-v1.0.0/cannet_1.0.0-ubuntu-18.04_amd64.deb
+$ sudo apt install ./cannet_1.0.0-ubuntu-18.04_amd64.deb
 ```
 #### Ubuntu Package Uninstall
 ```sh
 $ sudo apt remove eosio
-```
-
-### RPM-based (CentOS, Amazon Linux, etc.):
-
-#### RPM Package Install
-```sh
-$ wget https://github.com/eosio/eos/releases/download/v2.0.2/eosio-2.0.2-1.el7.x86_64.rpm
-$ sudo yum install ./eosio-2.0.2-1.el7.x86_64.rpm
-```
-#### RPM Package Uninstall
-```sh
-$ sudo yum remove eosio
 ```
 
 ## Uninstall Script
@@ -69,8 +52,6 @@ If you have previously installed EOSIO using build scripts, you can execute `eos
 
 ## Supported Operating Systems
 CAN currently supports the following operating systems:  
-1. Amazon Linux 2
-2. CentOS 7
-3. Ubuntu 16.04
-4. Ubuntu 18.04
-5. MacOS 10.14 (Mojave)
+
+1. Ubuntu 18.04
+2. MacOS 10.14 (Mojave)
