@@ -36,11 +36,11 @@ $ sudo apt install ./cannet_1.0.0-ubuntu-18.04_amd64.deb
 ```
 #### Ubuntu Package Uninstall
 ```sh
-$ sudo apt remove eosio
+$ sudo apt remove cannet
 ```
 
 ## Uninstall Script
-To uninstall the EOSIO built/installed binaries and dependencies, run:
+To uninstall the CANNET built/installed binaries and dependencies, run:
 ```sh
 ./scripts/eosio_uninstall.sh
 ```
@@ -48,7 +48,7 @@ To uninstall the EOSIO built/installed binaries and dependencies, run:
 If you have previously installed EOSIO using build scripts, you can execute `eosio_uninstall.sh` to uninstall.
 - Passing `-y` will answer yes to all prompts (does not remove data directories)
 - Passing `-f` will remove data directories (be very careful with this)
-- Passing in `-i` allows you to specify where your eosio installation is located
+- Passing in `-i` allows you to specify where your cannet installation is located
 
 ## Supported Operating Systems
 CAN currently supports the following operating systems:  
