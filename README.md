@@ -55,3 +55,11 @@ CAN currently supports the following operating systems:
 
 1. Ubuntu 18.04
 2. MacOS 10.14 (Mojave)
+
+## Chain API
+
+There're two endpoint for CANchain:
+- Mainnet: https://canfoundation.io
+- Testnet: https://test.canfoundation.io
+
+Chain API documents can be found at [docs/01_nodeos/03_plugins/chain_api_plugin/swagger.json](docs/01_nodeos/03_plugins/chain_api_plugin/swagger.json)
